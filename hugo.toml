@@ -3,3 +3,11 @@ languageCode = 'en-us'
 title = "Xvyv99's Blog"
 
 theme = "paper"
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
